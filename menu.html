@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Restaurante Mexicano</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f3e7;
+            color: #3e2723;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }/* Estilos do menu */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            color: #fff;
+        }
+        /* Estilos das seções */
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        #home {
+            background-color: #f4f4f4;
+        }
+        #menu {
+            background-color: #e2e2e2;
+        }
+        #contato {
+            background-color: #d1d1d1;
+        }
+        /* Estilos das seções */
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #d32f2f;
+            text-align: center;
+        }
+        .menu-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-bottom: 2px solid #d32f2f;
+        }
+        .menu-section:last-child {
+            border-bottom: none;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px dashed #d32f2f;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+        }
+        .price {
+            color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="#contato">Contato</a>
+    </div>
+
+    <h1>Restaurante Mexicano - Menu</h1>
+
+    <!-- Entradas -->
+    <div class="menu-section">
+        <h2>Entradas</h2>
+        <div class="item">
+            <span class="item-name">Guacamole</span>
+            <span class="price">R$ 25,00</span>
+        </div>
+        <div class="item">
+            <span class="item-name">Nachos com Queijo</span>
+            <span class="price">R$ 30,00</span>
+        </div>
+        <div class="item">
+            <span class="item-name">Tacos de Frango</span>
+            <span class="price">R$ 20,00</span>
+        </div>
+    </div>
+
+    <!-- Pratos Principais -->
+    <div class="menu-section">
+        <h2>Pratos Principais</h2>
+        <div class="item">
+            <span class="item-name">Burrito de Carne</span>
+            <span class="price">R$ 35,00</span>
+        </div>
+        <div class="item">
+            <span class="item-name">Enchiladas de Frango</span>
+            <span class="price">R$ 32,00</span>
+        </div>
+        <div class="item">
+            <span class="item-name">Quesadilla de Queijo</span>
+            <span class="price">R$ 28,00</span>
+        </div>
+    </div>
+
+    <!-- Sobremesas -->
+    <div class="menu-section">
+        <h2>Sobremesas</h2>
+        <div class="item">
+            <span class="item-name">Churros com Chocolate</span>
+            <span class="price">R$ 18,00</span>
+        </div>
+        <div class="item">
+            <span class="item-name">Flan Mexicano</span>
+            <span class="price">R$ 22,00</span>
+        </div>
+    </div>
+
+</body>
+</html>

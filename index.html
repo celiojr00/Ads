@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante El Sombrero</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f3e7;
+            color: #3e2723;
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos do menu */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            color: #fff;
+        }
+        .sidebar {
+            background-color: #333;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow:hidden ;
+            display: flex;
+            justify-content: center;
+            padding: 25px;
+        }
+        .sidebar h2{
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .copy{
+            color: white;
+            text-decoration: none;
+            position: fixed;
+            bottom: 0;
+            left:20px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .links {
+            color: white;
+            position: fixed;
+            bottom: 0;
+            right: 10px;
+            padding: 14px 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .sidebar a{
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            text-align: center;
+        }
+        body a{
+            color: #3e2723;
+            padding: 8px;
+            text-decoration: none;
+            text-align: center; 
+        }
+        /* Estilos das seções */
+        .section1 {
+            padding: 80px;
+            text-align: center;
+            justify-content: center;
+        }
+        .section2 {
+            padding: 80px;
+            text-align: center;
+            position: relative;
+            bottom: 10ch;
+            padding: 14px 15px;
+            justify-content: center;
+        }
+        .sombrero-container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 50px;
+        }
+
+        .sombrero {
+            max-width: 450px;
+            height: auto;
+        }
+        #home {
+            background-color: #f4f4f4;
+        }
+        #menu {
+            background-color: #e2e2e2;
+        }
+        #contato {
+            background-color: #d1d1d1;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="ADS/index.html">Home</a>
+        <a href="ADS/menu.html">Menu</a>
+        <a href="#contato">Contato</a>
+    </div>
+
+    <div class="section1">
+        <h1>Bem-vindo ao Restaurante El Sombrero</h1>
+        <p>Uma experiência gastronômica única.</p>
+
+        <div class="sombrero-container">
+            <img src="img\sombrero.png" alt="Sombrero Mexicano" class="sombrero">
+        </div>
+    </div>
+
+
+
+    <div class="section2">
+        <p><strong></strong> Rua dos Sabores, 123, São Paulo, SP</p>
+
+        <p>
+            <a  href="#whatsapp" target="_blank"> 
+                27 99999-9999 <i class="fab fa-whatsapp"></i>
+            </a>
+        </p>
+    </div>
+    
+
+    <div id="sidebar" class="sidebar">
+        <div class="copy">
+            <p><a href="/">&copy; Copyright 2024 by Célio Jr.</a></p>
+        
+        </div>
+
+        <div class="links">
+            <a  href="#instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a  href="#facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a  href="#twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a  href="#linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a  href="#youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
